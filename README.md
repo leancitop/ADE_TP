@@ -42,20 +42,11 @@ Este repositorio contiene el **TP de Análisis de Datos Espaciales** enfocado en
 
 1. **Descarga** y **agregación temporal** de precipitación (1981–2023).
 2. **Cálculo del CV** (anual y/o estacional) por celda.
-3. **Zonal statistics** para polígonos de interés (regiones maiceras).
-4. **Mapas temáticos** en QGIS (clasificación por cuantiles / breaks definidos).
-5. **Comparativa** AR vs ZA + breve reporte.
+3. **Zonal statistics?** para polígonos de interés (especificando por region de cultivo).
+4. **Comparativa** ARG vs SDA + breve reporte.
 
 ## 🧑‍🤝‍🧑 Colaboración
 
 - Estrategia **GitHub Flow**: ramas feature → PR → revisión → merge a `main`.
 - Nombrado de ramas: `feat/`, `fix/`, `docs/`, `data/`.
 - Issues con etiquetas: `data`, `qgis`, `analysis`, `infra`.
-
-## 📄 Licencia
-
-MIT (ver `LICENSE`).
-
----
-
-**Contacto:** equipo TP (agreguen @ de GitHub).
