@@ -1,0 +1,39 @@
+# R
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+.Rproj.user
+.Rproj
+.Renviron
+renv/library/
+renv/staging/
+/.Rprofile
+
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# QGIS / GIS
+*.qgs~
+*.qgz~
+*.qml~
+*.aux.xml
+*.ovr
+*.lock
+*.gpkg-wal
+*.gpkg-shm
+
+# Data artifacts
+data/raw/*
+data/processed/*
+data/external/*
+
+# keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# OS / misc
+.DS_Store
+Thumbs.db

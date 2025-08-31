@@ -1,0 +1,17 @@
+name: r-lint
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - name: Install lintr
+        run: R -q -e 'install.packages("lintr", repos="https://cloud.r-project.org")'
+      - name: Lint R scripts
+        run: R -q -e 'lintr::lint_dir("scripts/r")'
