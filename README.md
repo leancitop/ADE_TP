@@ -15,7 +15,7 @@ Este repositorio contiene el **TP de Análisis de Datos Espaciales** enfocado en
 │   ├── raw/         # descargas originales (CHIRPS/WorldClim/SoilGrids, etc.)
 │   ├── processed/   # datos derivados (agregados anuales/estacionales, CV)
 │   └── external/    # shapes externos (regiones, límites)
-├── qgis/            # proyecto .qgz y estilos .qml
+├── qgis/            # proyecto .qgz y gpkg
 ├── scripts/
 │   └── r/           # scripts en R
 ├── .gitignore
