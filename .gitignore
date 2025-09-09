@@ -24,11 +24,6 @@ __pycache__/
 *.gpkg-wal
 *.gpkg-shm
 
-# Data artifacts
-data/raw/*
-data/processed/*
-data/external/*
-
 # keep directory structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
